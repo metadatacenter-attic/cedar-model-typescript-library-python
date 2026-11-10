@@ -1,17 +1,7 @@
-# cedar-model-typescript-library-python
+# CEDAR Model TypeScript Library Python Tools (Retired)
 
-## How to install
+This repository held one script, `main.py`, which plotted histograms from the summary file of a
+roundtrip comparison run. The tools that wrote that file are retired, so the script has no input.
+This repository is retired with them, and no CEDAR tooling includes it.
 
-```bash
-export CEDAR_HOME='/Users/cedar-dev/CEDAR/'
-
-cd ${CEDAR_HOME}
-git clone https://github.com/metadatacenter/cedar-model-typescript-library-python
-
-cd cedar-cli
-git checkout develop
-
-python -m venv ./.venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+The script remains in Git history and the existing release tags.
